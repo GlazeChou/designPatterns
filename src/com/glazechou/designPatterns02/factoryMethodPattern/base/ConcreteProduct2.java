@@ -4,7 +4,7 @@ public class ConcreteProduct2  extends Product{
 
 	@Override
 	public void method2() {
-		//业务逻辑处理
+		//涓氬姟閫昏緫澶勭悊
 	}
 
 }

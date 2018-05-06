@@ -1,7 +1,7 @@
 package com.glazechou.designPatterns02.factoryMethodPattern.base;
 
 /**
- * ¾ßÌå¹¤³§Àà
+ * å…·ä½“å·¥å‚ç±»
  * @author msi-
  *
  */
@@ -13,7 +13,7 @@ public  class ConcreteCreator extends Creator {
 		try {
 			product = (Product)Class.forName(c.getName()).newInstance();
 		} catch (Exception e) {
-		       //Òì³£´¦Àí
+		       //å¼‚å¸¸å¤„ç†
 		}
 		return (T)product;
 	}

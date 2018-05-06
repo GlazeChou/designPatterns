@@ -2,11 +2,11 @@ package com.glazechou.designPatterns02.factoryMethodPattern.base;
 
 public abstract class Product {
    
-	//产品类的公共方法
+	//浜у搧绫荤殑鍏叡鏂规硶
 	public void method1() {
-		//业务逻辑处理
+		//涓氬姟閫昏緫澶勭悊
 	}
 	
-	//抽象方法
+	//涓氬姟閫昏緫澶勭悊
 	public abstract void method2();
 }

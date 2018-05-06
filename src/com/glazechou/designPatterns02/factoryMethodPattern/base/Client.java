@@ -7,7 +7,7 @@ public class Client {
 		Product product = creator.createProduct(ConcreteProduct1.class);
 		
 		/**
-		 * 继续业务处理
+		 * 缁х画涓氬姟澶勭悊
 		 */
 		
 	}

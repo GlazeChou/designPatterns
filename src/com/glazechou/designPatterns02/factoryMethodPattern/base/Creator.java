@@ -1,14 +1,14 @@
 package com.glazechou.designPatterns02.factoryMethodPattern.base;
 
 /**
- * ³éÏó¹¤³§Àà
+ * æŠ½è±¡å·¥å‚ç±»
  * @author msi-
  *
  */
 public abstract class Creator {
    /**
-    * ´´½¨Ò»¸ö²úÆ·¶ÔÏó£¬ÆäÊäÈë²ÎÊıÀàĞÍ¿ÉÒÔ×ÔĞĞÉèÖÃ
-    * Í¨³£ÎªString¡¢Enum¡¢ClassµÈ£¬µ±È»Ò²¿ÉÒÔÎª¿Õ
+    * åˆ›å»ºä¸€ä¸ªäº§å“å¯¹è±¡ï¼Œå…¶è¾“å…¥å‚æ•°ç±»å‹å¯ä»¥è‡ªè¡Œè®¾ç½®
+    * Í¨é€šå¸¸ä¸ºStringã€Enumã€Classç­‰ï¼Œå½“ç„¶ä¹Ÿå¯ä»¥ä¸ºç©º
     */
 	public abstract <T extends Product> T createProduct(Class<T> c);
 }
