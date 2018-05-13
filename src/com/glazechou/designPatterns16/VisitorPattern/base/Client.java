@@ -1,5 +1,10 @@
 package com.glazechou.designPatterns16.VisitorPattern.base;
 
+/**
+ * 场景类
+ * @author msi-
+ *
+ */
 public class Client {
 	public static void main(String[] args) {
 

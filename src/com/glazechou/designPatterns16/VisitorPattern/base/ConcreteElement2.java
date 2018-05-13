@@ -1,5 +1,10 @@
 package com.glazechou.designPatterns16.VisitorPattern.base;
 
+/**
+ * 具体元素2
+ * @author msi-
+ *
+ */
 public class ConcreteElement2 extends Element {
 
 	//完善业务逻辑

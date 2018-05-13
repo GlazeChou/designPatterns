@@ -1,5 +1,10 @@
 package com.glazechou.designPatterns16.VisitorPattern.base;
 
+/**
+ * 抽象元素角色
+ * @author msi-
+ *
+ */
 public abstract class Element {
    //定义业务逻辑
 	public abstract void doSomething();

@@ -1,5 +1,10 @@
 package com.glazechou.designPatterns16.VisitorPattern.base;
 
+/**
+ * 抽象访问者
+ * @author msi-
+ *
+ */
 public interface IVisitor {
   
 	//可以访问哪些对象

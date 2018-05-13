@@ -2,6 +2,11 @@ package com.glazechou.designPatterns16.VisitorPattern.base;
 
 import java.util.Random;
 
+/**
+ * 结构对象
+ * @author msi-
+ *
+ */
 public class ObjectStruture {
 
 	//对象生成器，这里通过一个工厂方法模式模拟

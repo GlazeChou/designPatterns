@@ -1,5 +1,10 @@
 package com.glazechou.designPatterns16.VisitorPattern.base;
 
+/**
+ * 具体访问者
+ * @author msi-
+ *
+ */
 public class Visitor implements IVisitor {
 
 	//访问el1元素
