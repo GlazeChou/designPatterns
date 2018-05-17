@@ -2,6 +2,11 @@ package com.glazechou.designPatterns23.FlyweightPattern.demo1;
 
 import java.util.HashMap;
 
+/**
+ * 带对象池的工厂类
+ * @author msi-
+ *
+ */
 public class SignInfoFactory {
    //池容器
 	private static HashMap<String,SignInfo> pool = new HashMap<String,SignInfo>();

@@ -1,5 +1,10 @@
 package com.glazechou.designPatterns23.FlyweightPattern.demo1;
 
+/**
+ * 报考信息类
+ * @author msi-
+ *
+ */
 public class SignInfo {
 	private String id; // 报名人员的id
 	private String location; // 考试地点

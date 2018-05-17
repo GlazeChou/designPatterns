@@ -1,5 +1,9 @@
 package com.glazechou.designPatterns23.FlyweightPattern.demo1;
-
+/**
+ * 带对象池的报考信息
+ * @author msi-
+ *
+ */
 public class SignInfo4Pool extends SignInfo {
 
 	//定义一个对象池提取的key值

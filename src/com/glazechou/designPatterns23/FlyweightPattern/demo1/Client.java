@@ -1,7 +1,6 @@
 package com.glazechou.designPatterns23.FlyweightPattern.demo1;
 
 public class Client {
-
 	public static void main(String[] args) {
         //初始化对象池
 		for (int i = 0; i < 4; i++) {
